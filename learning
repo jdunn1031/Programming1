@@ -1,0 +1,16 @@
+#include <stdio.h>
+ int main() {
+
+int dollars;
+
+printf("Enter the amount of dollars you have: ");
+scanf("%d", &dollars);
+
+printf("$20 bills: %d\n", dollars / 20);
+printf("$10 bills: %d\n", dollars % 20 / 10);
+printf("$5 bills: %d\n", dollars % 20 % 10 / 5);
+printf("$1 bills: %d\n", dollars % 20 % 10 % 5);
+
+return 0;
+
+ }
